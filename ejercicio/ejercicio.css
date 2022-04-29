@@ -1,0 +1,43 @@
+body {
+    background-color: #363636;
+    color: white;
+    margin: none;
+}
+
+input {
+    width: 80%;
+    height: 15px;
+    padding: 5px;
+    margin: 5px;
+}
+
+.item{
+    padding: 5px;
+    text-decoration: none;
+    transition: 500ms;
+    transition-delay: 10ms;
+    margin: 5px;
+}
+
+.item:hover{
+    background-color: #bbb;
+    transform: scale(110%);
+}
+
+.banner{
+    width: 100%;
+    background-color: #999;
+    margin: none;
+    top: 0px;
+    position: relative;
+    display: inline-flex;
+    
+}
+
+.cm{
+    float: right;
+    min-width: 80px;
+}
+.peppa{
+    max-width: 100px;
+}
